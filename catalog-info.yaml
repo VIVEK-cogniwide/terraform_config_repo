@@ -3,7 +3,10 @@ kind: Component
 metadata:
   name: Terraform_repo
   description: Azure AD user/group terraform IAC  repository
+  tag:
+    - terraform
+    - azure AD
 spec:
   type: service
   lifecycle: experimental
-  owner: user:VIVEK-cogniwide
+  owner: user:Jenny Doe
