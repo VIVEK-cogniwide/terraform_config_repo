@@ -13,5 +13,5 @@ spec:
   kubernetes:
     cluster: minikube-local
     namespace: default
-    resource: deployment  # You can specify the Kubernetes resource type like deployment, pod, etc.
+    #resource: deployment  # You can specify the Kubernetes resource type like deployment, pod, etc.
      # The name of the resource you want to track
