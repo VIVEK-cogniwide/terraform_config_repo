@@ -6,6 +6,7 @@ metadata:
   annotations:
     backstage.io/jenkins-only: 'true'
     jenkins.io/job-full-name: discovery-pipeline/discovery-pipeline
+    backstage.io/kubernetes-id: cogniassist-frontend
     # jenkins.io/github-folder: 'https://github.com/VIVEK-cogniwide/Event-managment-system'
 spec:
   type: service
