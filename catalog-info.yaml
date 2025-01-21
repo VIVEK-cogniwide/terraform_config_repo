@@ -1,8 +1,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: pipeline-1
-  description: Jenkins pipeline
+  name: pipeline-2
+  description: Jenkins Cogniassist discovery pipeline
   annotations:
     backstage.io/jenkins-only: 'true'
     jenkins.io/job-full-name: discovery-pipeline/discovery-pipeline
