@@ -1,11 +1,12 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Terraform_repo
-  description: Azure AD user/group terraform IAC  repository
-  tag:
-    - terraform
-    - azure AD
+  name: pipeline-1
+  description: Jenkins pipeline
+  annotations:
+    backstage.io/jenkins-only: 'true'
+    jenkins.io/job-full-name: discovery-pipeline/discovery-pipeline
+    # jenkins.io/github-folder: 'https://github.com/VIVEK-cogniwide/Event-managment-system'
 spec:
   type: service
   lifecycle: experimental
