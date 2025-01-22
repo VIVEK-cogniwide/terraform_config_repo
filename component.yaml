@@ -5,13 +5,13 @@ metadata:
   description: A Kubernetes component associated with the Jenkins pipeline
   annotations:
     backstage.io/kubernetes-id: minikube-local
+    backstage.io/kubernetes-cluster: minikube-local
     backstage.io/kubernetes-namespace: default
 spec:
   type: service
   lifecycle: experimental
   owner: user:VIVEK-cogniwide
-  kubernetes:
-    cluster: minikube-local
-    namespace: default
-    #resource: deployment  # You can specify the Kubernetes resource type like deployment, pod, etc.
-     # The name of the resource you want to track
+  # kubernetes:
+  #   cluster: minikube-local
+  #   namespace: default
+   
