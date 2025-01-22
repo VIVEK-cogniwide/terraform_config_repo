@@ -6,7 +6,7 @@ metadata:
   annotations:
     backstage.io/kubernetes-id: aks-pe-poc
     backstage.io/kubernetes-cluster: aks-pe-poc
-    backstage.io/kubernetes-namespace: cogniassist-frontend
+    backstage.io/kubernetes-namespace: release
 spec:
   type: service
   lifecycle: experimental
