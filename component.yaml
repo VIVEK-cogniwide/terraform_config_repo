@@ -5,8 +5,9 @@ metadata:
   description: Cogniassist AKS cluster
   annotations:
     backstage.io/kubernetes-id: minikube-local
+    backstage.io/kubernetes-namespace: workspace-1
 spec:
-  type: website
+  type: service
   lifecycle: experimental
   owner: user:VIVEK-cogniwide
   # kubernetes:
