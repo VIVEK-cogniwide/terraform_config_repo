@@ -5,8 +5,6 @@ metadata:
   description: Cogniassist AKS cluster
   annotations:
     backstage.io/kubernetes-id: aks-pe-poc
-    backstage.io/kubernetes-cluster: minikube-local
-    backstage.io/kubernetes-namespace: default
 spec:
   type: service
   lifecycle: experimental
