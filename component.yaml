@@ -2,11 +2,11 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: k8s-pipeline-component
-  description: A Kubernetes component associated with the Jenkins pipeline
+  description: Cogniassist AKS cluster
   annotations:
-    backstage.io/kubernetes-id: minikube-local
-    backstage.io/kubernetes-cluster: minikube-local
-    backstage.io/kubernetes-namespace: default
+    backstage.io/kubernetes-id: aks-pe-poc
+    backstage.io/kubernetes-cluster: aks-pe-poc
+    backstage.io/kubernetes-namespace: cogniassist-frontend
 spec:
   type: service
   lifecycle: experimental
