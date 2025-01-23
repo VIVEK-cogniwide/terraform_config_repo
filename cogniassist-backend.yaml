@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Cogniassist-backend K8s resources
+  description: Cogniassist AKS cluster
+  annotations:
+    backstage.io/kubernetes-id: aks-pe-poc
+    backstage.io/kubernetes-label-selector: 'app.kubernetes.io/instance=cogniassist-backend'
+    backstage.io/kubernetes-namespace: cogniassist-backend
+spec:
+  type: service
+  lifecycle: experimental
+  owner: user:VIVEK-cogniwide
