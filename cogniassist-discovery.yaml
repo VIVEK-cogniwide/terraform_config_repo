@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Cogniassist-discovery AKS cluster resources
+  description: Cogniassist AKS cluster
+  annotations:
+    backstage.io/kubernetes-id: aks-pe-poc
+    backstage.io/kubernetes-label-selector: 'app.kubernetes.io/instance=cogniassist-discovery'
+    backstage.io/kubernetes-namespace: cogniassist-discovery
+spec:
+  type: service
+  lifecycle: experimental
+  owner: user:VIVEK-cogniwide
+  # kubernetes:
+  #   cluster: minikube-local
+  #   namespace: default
+   
