@@ -4,8 +4,8 @@ metadata:
   name: k8s-pipeline-component
   description: Cogniassist AKS cluster
   annotations:
-    backstage.io/kubernetes-id: minikube-local
-    backstage.io/kubernetes-namespace: workspace-1
+    backstage.io/kubernetes-id: aks-pe-poc
+    backstage.io/kubernetes-namespace: default
 spec:
   type: service
   lifecycle: experimental
