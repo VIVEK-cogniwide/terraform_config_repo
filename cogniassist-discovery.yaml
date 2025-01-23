@@ -1,8 +1,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Cogniassist-discovery AKS cluster resources
-  description: Cogniassist AKS cluster
+  name: Cogniassist-discovery 
+  description: Cogniassist discovery AKS cluster resources
   annotations:
     backstage.io/kubernetes-id: aks-pe-poc
     backstage.io/kubernetes-label-selector: 'app.kubernetes.io/instance=cogniassist-discovery'
