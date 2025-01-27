@@ -4,6 +4,8 @@ metadata:
   name: Cogniassist-backend 
   description: Cogniassist Backend AKS cluster resources
   annotations:
+    backstage.io/jenkins-only: 'true'
+    jenkins.io/job-full-name: CICD 2.0/CogniAssist-Platform-backend-ci
     backstage.io/kubernetes-id: aks-pe-poc
     backstage.io/kubernetes-label-selector: 'app.kubernetes.io/instance=cogniassist-backend'
     backstage.io/kubernetes-namespace: cogniassist-backend
