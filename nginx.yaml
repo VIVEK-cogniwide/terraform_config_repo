@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Nginx Ingress Controller
+  description: Nginx Cogniassist AKS cluster resource 
+  annotations:
+    backstage.io/kubernetes-id: aks-pe-poc
+    backstage.io/kubernetes-label-selector: 'app.kubernetes.io/instance:nginx'
+    backstage.io/kubernetes-namespace: mongodb
+spec:
+  type: service
+  lifecycle: experimental
+  owner: user:VIVEK-cogniwide
+  # kubernetes:
+  #   cluster: minikube-local
+  #   namespace: default
+  
