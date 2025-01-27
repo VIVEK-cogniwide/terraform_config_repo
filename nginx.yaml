@@ -6,7 +6,7 @@ metadata:
   annotations:
     backstage.io/kubernetes-id: aks-pe-poc
     backstage.io/kubernetes-label-selector: 'app.kubernetes.io/instance:nginx'
-    backstage.io/kubernetes-namespace: mongodb
+    backstage.io/kubernetes-namespace: ingress-nginx
 spec:
   type: service
   lifecycle: experimental
