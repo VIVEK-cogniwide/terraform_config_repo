@@ -4,6 +4,8 @@ metadata:
   name: Cogniassist-frontend
   description: Cogniassist Frontend kubernetes resources
   annotations:
+    backstage.io/jenkins-only: 'true'
+    jenkins.io/job-full-name: CICD 2.0/CogniAssist-Platform-frontend-ci
     backstage.io/kubernetes-id: aks-pe-poc
     backstage.io/kubernetes-namespace: cogniassist-frontend
     backstage.io/kubernetes-label-selector: 'app.kubernetes.io/instance=cogniassist-frontend'
