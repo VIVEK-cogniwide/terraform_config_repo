@@ -1,8 +1,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: k8s-pipeline-component
-  description: Cogniassist AKS cluster
+  name: Mongodb
+  description: Cogniassist AKS cluster resource
   annotations:
     backstage.io/kubernetes-id: aks-pe-poc
     backstage.io/kubernetes-label-selector: 'app.kubernetes.io/instance=mongo'
