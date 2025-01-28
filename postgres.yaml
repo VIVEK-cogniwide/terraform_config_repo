@@ -6,7 +6,7 @@ metadata:
   annotations:
     backstage.io/kubernetes-id: aks-pe-poc
     backstage.io/kubernetes-label-selector: 'app.kubernetes.io/instance=postgres'
-    backstage.io/kubernetes-namespace: mongodb
+    backstage.io/kubernetes-namespace: postgres
 spec:
   type: service
   lifecycle: experimental
