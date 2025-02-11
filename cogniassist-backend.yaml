@@ -13,3 +13,8 @@ spec:
   type: service
   lifecycle: experimental
   owner: user:VIVEK-cogniwide
+  dependsOn:
+    - kind: Component
+      name: Mongodb
+    - kind: Component
+      name: Postgres
