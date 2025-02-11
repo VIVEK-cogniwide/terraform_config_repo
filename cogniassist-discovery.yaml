@@ -9,6 +9,7 @@ metadata:
     backstage.io/kubernetes-id: aks-pe-poc
     backstage.io/kubernetes-label-selector: 'app.kubernetes.io/instance=cogniassist-discovery'
     backstage.io/kubernetes-namespace: cogniassist-discovery
+    backstage.io/depends-on: "component:Mongodb, component:Postgres"
 spec:
   type: service
   lifecycle: experimental
