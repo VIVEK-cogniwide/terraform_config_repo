@@ -9,9 +9,11 @@ metadata:
     backstage.io/kubernetes-id: aks-pe-poc
     backstage.io/kubernetes-label-selector: 'app.kubernetes.io/instance=cogniassist-backend'
     backstage.io/kubernetes-namespace: cogniassist-backend
-    backstage.io/depends-on: "component:Mongodb, component:Postgres"
 spec:
   type: service
   lifecycle: experimental
   owner: user:VIVEK-cogniwide
+  dependsOn:
+    - "component:Mongodb"
+    - "component:Postgres"
   
