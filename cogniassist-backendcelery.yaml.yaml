@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Cogniassist-backend-celery
+  description: Cogniassist Backend Celery AKS cluster resources
+  annotations:
+    backstage.io/jenkins-only: 'true'
+    backstage.io/kubernetes-id: aks-pe-poc
+    backstage.io/kubernetes-label-selector: 'app.kubernetes.io/instance=cogniassist-backend-celery'
+    backstage.io/kubernetes-namespace: cogniassist-backend
+    backstage.io/depends-on: "component:Postgres"
+spec:
+  type: service
+  lifecycle: experimental
+  owner: user:VIVEK-cogniwide
+  
