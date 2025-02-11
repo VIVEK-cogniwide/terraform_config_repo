@@ -12,7 +12,7 @@ spec:
   type: service
   lifecycle: experimental
   owner: user:VIVEK-cogniwide
-   dependsOn:
+  dependsOn:
     - "component:Redis"
     - "component:Postgres"
   
