@@ -9,6 +9,7 @@ metadata:
     backstage.io/kubernetes-id: aks-pe-poc
     backstage.io/kubernetes-namespace: cogniassist-frontend
     backstage.io/kubernetes-label-selector: 'app.kubernetes.io/instance=cogniassist-frontend'
+    backstage.io/techdocs-ref: dir:.
     # jenkins.io/github-folder: 'https://github.com/VIVEK-cogniwide/Event-managment-system'
 spec:
   type: service
