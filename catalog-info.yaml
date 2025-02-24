@@ -1,15 +1,12 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Cogniassist-frontend
-  description: Cogniassist Frontend kubernetes resources
+  name: Keycloak
+  description: keycloak auth service kubernetes resources
   annotations:
-    backstage.io/jenkins-only: 'true'
-    jenkins.io/job-full-name: CICD 2.0/CogniAssist-Platform-frontend-ci
     backstage.io/kubernetes-id: aks-pe-poc
     backstage.io/kubernetes-namespace: cogniassist-frontend
-    backstage.io/kubernetes-label-selector: 'app.kubernetes.io/instance=cogniassist-frontend'
-    backstage.io/techdocs-ref: dir:.
+    backstage.io/kubernetes-label-selector: 'app.kubernetes.io/instance=keycloak'
     # jenkins.io/github-folder: 'https://github.com/VIVEK-cogniwide/Event-managment-system'
 spec:
   type: service
