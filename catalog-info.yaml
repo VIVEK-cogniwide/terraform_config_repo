@@ -7,8 +7,7 @@ metadata:
     backstage.io/kubernetes-id: aks-pe-poc
     backstage.io/kubernetes-namespace: keycloak
     backstage.io/kubernetes-label-selector: 'app.kubernetes.io/instance=keycloak'
-    # jenkins.io/github-folder: 'https://github.com/VIVEK-cogniwide/Event-managment-system'
 spec:
   type: service
   lifecycle: experimental
-  owner: user:VIVEK-cogniwide
+  owner: guest
