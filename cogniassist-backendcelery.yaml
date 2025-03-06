@@ -6,8 +6,8 @@ metadata:
   annotations:
     backstage.io/jenkins-only: 'true'
     backstage.io/kubernetes-id: aks-pe-poc
-    backstage.io/kubernetes-label-selector: 'app.kubernetes.io/instance=harbor'
-    backstage.io/kubernetes-namespace: harbor
+    backstage.io/kubernetes-label-selector: 'app.kubernetes.io/app=warp'
+    backstage.io/kubernetes-namespace: warp
 spec:
   type: service
   lifecycle: experimental
