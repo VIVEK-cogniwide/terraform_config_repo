@@ -6,7 +6,7 @@ metadata:
   annotations:
     backstage.io/jenkins-only: 'true'
     backstage.io/kubernetes-id: aks-pe-poc
-    backstage.io/kubernetes-label-selector: 'app.kubernetes.io/instance:harbor'
+    backstage.io/kubernetes-label-selector: 'app.kubernetes.io/instance=harbor'
     backstage.io/kubernetes-namespace: harbor
 spec:
   type: service
