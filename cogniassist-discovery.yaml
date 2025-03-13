@@ -4,12 +4,10 @@ metadata:
   name: Cogniassist-discovery 
   description: Cogniassist discovery AKS cluster resources
   annotations:
-    backstage.io/jenkins-only: 'true'
-    jenkins.io/job-full-name: CICD 2.0/Discovery-APIs-ci
     backstage.io/kubernetes-id: aks-pe-poc
-    backstage.io/kubernetes-label-selector: 'app.kubernetes.io/instance=cogniassist-discovery'
-    backstage.io/kubernetes-namespace: cogniassist-discovery
-    backstage.io/depends-on: "component:Mongodb, component:Postgres"
+    backstage.io/kubernetes-label-selector: 'app.kubernetes.io/app=bobbins'
+    backstage.io/kubernetes-namespace: cogni-loom
+   
 spec:
   type: service
   lifecycle: experimental
