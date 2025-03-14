@@ -1,12 +1,11 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Nginx
-  description: Nginx Ingress Controller Cogniassist AKS cluster resource 
+  name: Postgres
+  description: Postgres DB
   annotations:
     backstage.io/kubernetes-id: aks-pe-poc
-    backstage.io/kubernetes-label-selector: 'app.kubernetes.io/instance=nginx'
-    backstage.io/kubernetes-namespace: ingress-nginx
+    backstage.io/kubernetes-namespace: postgres
 spec:
   type: service
   lifecycle: experimental
