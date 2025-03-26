@@ -6,6 +6,7 @@ metadata:
   annotations:
     backstage.io/kubernetes-id: aks-pe-poc
     backstage.io/kubernetes-namespace: harbor
+    backstage.io/kubernetes-service-account: aks-api-service-account
 spec:
   type: service
   lifecycle: experimental
