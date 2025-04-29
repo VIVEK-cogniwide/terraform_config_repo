@@ -1,8 +1,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: demo
-  description: demo
+  name: harness
+  description: Harness ci/cd component
   annotations:
     # mandatory annotation
     harness.io/project-url: https://app.harness.io
