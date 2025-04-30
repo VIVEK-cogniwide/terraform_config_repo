@@ -5,9 +5,9 @@ metadata:
   description: Harness ci/cd component
   annotations:
     # mandatory annotation
-    harness.io/project-url: https://app.harness.io
+    harness.io/project-url: https://teams.microsoft.com/l/message/19:57ffa94d-7227-4dfb-b58d-0c7984b734fe_730db4af-81a8-43eb-b701-b8449d4bde9a@unq.gbl.spaces/1745990586659?context=%7B%22contextType%22%3A%22chat%22%7D
     # optional annotations, don't include this block if not needed. Add this if specific pipeline executions needs to be shown on the Plugin. When specified, latest pipeline execution details for configured pipelineIds(max 10) and configured serviceId will be shown.
-    harness.io/ci-pipelineIds: <pipelineId1,pipelineId2,pipelineId3 etc>
+    harness.io/ci-pipelineIds: test
     harness.io/cd-serviceId: <serviceId>
   tags:
     - java
