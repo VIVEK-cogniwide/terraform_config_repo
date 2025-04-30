@@ -6,8 +6,8 @@ metadata:
   annotations:
     harness.io/project-url: https://app.harness.io/ng/account/_cFLn0VGSK2xFNo3rUkiEg/all/orgs/DABCO_CICD/projects/pairpointnonprod
     harness.io/pipelines: | 
-      Pipeline1: https://app.harness.io/ng/account/_cFLn0VGSK2xFNo3rUkiEg/all/orgs/DABCO_CICD/projects/pairpointnonprod/pipelines/test2
-      Pipeline2: https://app.harness.io/ng/account/_cFLn0VGSK2xFNo3rUkiEg/all/orgs/DABCO_CICD/projects/pairpointnonprod/pipelines/cipublishpackageidoportal
+      test2: https://app.harness.io/ng/account/_cFLn0VGSK2xFNo3rUkiEg/all/orgs/DABCO_CICD/projects/pairpointnonprod/pipelines/test2
+      cipublishpackageidoportal: https://app.harness.io/ng/account/_cFLn0VGSK2xFNo3rUkiEg/all/orgs/DABCO_CICD/projects/pairpointnonprod/pipelines/cipublishpackageidoportal
   tags:
     - java
 
