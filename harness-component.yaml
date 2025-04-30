@@ -9,7 +9,7 @@ metadata:
     harness.io/orgId: DABCO_CICD
     harness.io/projectId: pairpointnonprod
     harness.io/pipelines: |
-      cipublishpackageidoportal: https://app.harness.io/ng/account/_cFLn0VGSK2xFNo3rUkiEg/all/orgs/DABCO_CICD/projects/pairpointnonprod/pipelines/cipublishpackageidoportal/pipeline-studio/?storeType=INLINE
+      MPGSPipeline: https://app.harness.io/ng/account/_cFLn0VGSK2xFNo3rUkiEg/home/orgs/DABCO_CICD/projects/pairpointnonprod/pipelines/cidabcorempgs/pipeline-studio/?repoName=devops-tooling%2Fpairpoint-harness-library&connectorRef=account.PPGITLABSA&storeType=REMOTE
       
   tags:
     - java
