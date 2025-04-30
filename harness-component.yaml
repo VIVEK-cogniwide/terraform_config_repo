@@ -11,6 +11,7 @@ metadata:
     harness.io/pipelines: |
       MPGSPipeline: https://app.harness.io/ng/account/_cFLn0VGSK2xFNo3rUkiEg/home/orgs/DABCO_CICD/projects/pairpointnonprod/pipelines/cidabcorempgs/pipeline-studio/?repoName=devops-tooling%2Fpairpoint-harness-library&connectorRef=account.PPGITLABSA&storeType=REMOTE
       test2: https://app.harness.io/ng/account/_cFLn0VGSK2xFNo3rUkiEg/all/orgs/DABCO_CICD/projects/pairpointnonprod/pipelines/test2/pipeline-studio/?storeType=INLINE
+      keycloakConfig: https://app.harness.io/ng/account/_cFLn0VGSK2xFNo3rUkiEg/all/orgs/DABCO_CICD/projects/pairpointnonprod/pipelines/KeycloakConfig/pipeline-studio/?storeType=INLINE
   tags:
     - java
 
