@@ -9,7 +9,7 @@ metadata:
     harness.io/orgId: DABCO_CICD
     harness.io/projectId: pairpointnonprod
     harness.io/pipelines: |
-      test2: https://app.harness.io/ng/account/_cFLn0VGSK2xFNo3rUkiEg/all/orgs/DABCO_CICD/projects/pairpointnonprod/pipelines/test2/pipeline-studio/?storeType=INLINE
+      cipublishpackageidoportal: https://app.harness.io/ng/account/_cFLn0VGSK2xFNo3rUkiEg/all/orgs/DABCO_CICD/projects/pairpointnonprod/pipelines/cipublishpackageidoportal/pipeline-studio/?storeType=INLINE
       
   tags:
     - java
