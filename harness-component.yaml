@@ -4,9 +4,9 @@ metadata:
   name: harness
   description: Harness ci/cd component
   annotations:
-    harness.io/accountId: _cFLn0VGSK2xFNo3rUkiEg
-    harness.io/orgId: DABCO_CICD
-    harness.io/projectId: pairpointnonprod
+    # harness.io/accountId: _cFLn0VGSK2xFNo3rUkiEg
+    # harness.io/orgId: DABCO_CICD
+    # harness.io/projectId: pairpointnonprod
     harness.io/pipelines: |
       MPGSPipeline: https://app.harness.io/ng/account/_cFLn0VGSK2xFNo3rUkiEg/home/orgs/DABCO_CICD/projects/pairpointnonprod/pipelines/cidabcorempgs/pipeline-studio/?repoName=devops-tooling%2Fpairpoint-harness-library&connectorRef=account.PPGITLABSA&storeType=REMOTE
       test2: https://app.harness.io/ng/account/_cFLn0VGSK2xFNo3rUkiEg/all/orgs/DABCO_CICD/projects/pairpointnonprod/pipelines/test2/executions?storeType=INLINE&searchTerm=&myDeployments=false&timeRange%5BtimeRangeFilterType%5D=LAST_YEAR
