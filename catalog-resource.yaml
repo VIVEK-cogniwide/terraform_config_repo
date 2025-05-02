@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: dab-core-cluster
+  description: MPG pipeline
+spec:
+  type: kubernetes-cluster
+  owner: team-a
+  
