@@ -1,25 +1,28 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Cogniassist-backend 
+  name: Cogniassist-services
   description: Cogniassist Backend AKS cluster resources
   annotations:
     backstage.io/jenkins-only: 'true'
     jenkins.io/job-full-name: CICD 2.0/CogniAssist-Platform-backend-ci
+    
+    # First Kubernetes cluster
+    backstage.io/kubernetes-id: aks-pe-poc
+    backstage.io/kubernetes-label-selector: 'app.kubernetes.io/instance=cogniassist-backend'
+    backstage.io/kubernetes-namespace: cogniassist-backend
+    
+    # Second Kubernetes cluster
+    backstage.io/kubernetes-id-1: aks-production
+    backstage.io/kubernetes-label-selector-1: 'app.kubernetes.io/instance=cogniassist-backend'
+    backstage.io/kubernetes-namespace-1: cogniassist-backend-prod
+    
+    # Third Kubernetes cluster (if needed)
+    backstage.io/kubernetes-id-2: aks-staging
+    backstage.io/kubernetes-label-selector-2: 'app.kubernetes.io/instance=cogniassist-backend'
+    backstage.io/kubernetes-namespace-2: cogniassist-backend-staging
 spec:
   type: service
   lifecycle: experimental
   owner: user:VIVEK-cogniwide
-  dependsOn:
-    - "component:Mongodb"
-    - "component:Postgres"
-  kubernetes:
-    - clusterId: aks-pe-poc
-      labelSelector: 'app.kubernetes.io/instance=cogniassist-backend'
-      namespace: cogniassist-backend
-    - clusterId: aks-production
-      labelSelector: 'app.kubernetes.io/instance=cogniassist-backend'
-      namespace: cogniassist-backend-prod
-    - clusterId: aks-staging
-      labelSelector: 'app.kubernetes.io/instance=cogniassist-backend'
-      namespace: cogniassist-backend-staging
+  
