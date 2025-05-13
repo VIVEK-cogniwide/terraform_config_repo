@@ -1,0 +1,25 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Cogniassist-backend 
+  description: Cogniassist Backend AKS cluster resources
+  annotations:
+    backstage.io/jenkins-only: 'true'
+    jenkins.io/job-full-name: CICD 2.0/CogniAssist-Platform-backend-ci
+spec:
+  type: service
+  lifecycle: experimental
+  owner: user:VIVEK-cogniwide
+  dependsOn:
+    - "component:Mongodb"
+    - "component:Postgres"
+  kubernetes:
+    - clusterId: aks-pe-poc
+      labelSelector: 'app.kubernetes.io/instance=cogniassist-backend'
+      namespace: cogniassist-backend
+    - clusterId: aks-production
+      labelSelector: 'app.kubernetes.io/instance=cogniassist-backend'
+      namespace: cogniassist-backend-prod
+    - clusterId: aks-staging
+      labelSelector: 'app.kubernetes.io/instance=cogniassist-backend'
+      namespace: cogniassist-backend-staging
