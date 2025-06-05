@@ -4,6 +4,9 @@ metadata:
   name: harness
   description: Harness ci/cd component
   annotations:
+    backstage.io/kubernetes-id: minikube-local
+    backstage.io/kubernetes-label-selector: 'app: app'
+    backstage.io/kubernetes-namespace: workspace-2
     harness.io/accountId: _cFLn0VGSK2xFNo3rUkiEg
     harness.io/orgId: DABCO_CICD
     harness.io/projectId: pairpointnonprod
