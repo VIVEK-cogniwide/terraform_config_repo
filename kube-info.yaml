@@ -1,0 +1,18 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: app-release
+  description: flask app
+  annotations:
+    backstage.io/kubernetes-id: minikube-local
+    backstage.io/kubernetes-label-selector: 'app: app'
+    backstage.io/kubernetes-namespace: workspace-2
+   
+spec:
+  type: service
+  lifecycle: experimental
+  owner: user:VIVEK-cogniwide
+  # kubernetes:
+  #   cluster: minikube-local
+  #   namespace: default
+   
