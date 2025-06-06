@@ -9,7 +9,7 @@ metadata:
     
     # First Kubernetes cluster
     backstage.io/kubernetes-id: minikube-local
-    backstage.io/kubernetes-label-selector: 'app: app'
+    backstage.io/kubernetes-label-selector: 'app=app'
     backstage.io/kubernetes-namespace: workspace-2
     # Second Kubernetes cluster
     # backstage.io/kubernetes-id-1: aks-production
