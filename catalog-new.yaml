@@ -9,18 +9,17 @@ metadata:
     
     # First Kubernetes cluster
     backstage.io/kubernetes-id: aks-pe-poc
-    backstage.io/kubernetes-label-selector: 'app.kubernetes.io/instance=cogniassist-backend'
-    backstage.io/kubernetes-namespace: cogniassist-backend
-    
+    backstage.io/kubernetes-label-selector: 'app: app'
+    backstage.io/kubernetes-namespace: workspace-2
     # Second Kubernetes cluster
-    backstage.io/kubernetes-id-1: aks-production
-    backstage.io/kubernetes-label-selector-1: 'app.kubernetes.io/instance=cogniassist-backend'
-    backstage.io/kubernetes-namespace-1: cogniassist-backend-prod
+    # backstage.io/kubernetes-id-1: aks-production
+    # backstage.io/kubernetes-label-selector-1: 'app.kubernetes.io/instance=cogniassist-backend'
+    # backstage.io/kubernetes-namespace-1: cogniassist-backend-prod
     
-    # Third Kubernetes cluster (if needed)
-    backstage.io/kubernetes-id-2: aks-staging
-    backstage.io/kubernetes-label-selector-2: 'app.kubernetes.io/instance=cogniassist-backend'
-    backstage.io/kubernetes-namespace-2: cogniassist-backend-staging
+    # # Third Kubernetes cluster (if needed)
+    # backstage.io/kubernetes-id-2: aks-staging
+    # backstage.io/kubernetes-label-selector-2: 'app.kubernetes.io/instance=cogniassist-backend'
+    # backstage.io/kubernetes-namespace-2: cogniassist-backend-staging
 spec:
   type: service
   lifecycle: experimental
