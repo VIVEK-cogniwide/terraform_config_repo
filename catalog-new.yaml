@@ -8,7 +8,7 @@ metadata:
     jenkins.io/job-full-name: CICD 2.0/CogniAssist-Platform-backend-ci
     
     # First Kubernetes cluster
-    backstage.io/kubernetes-id: aks-pe-poc
+    backstage.io/kubernetes-id: minikube-local
     backstage.io/kubernetes-label-selector: 'app: app'
     backstage.io/kubernetes-namespace: workspace-2
     # Second Kubernetes cluster
