@@ -3,20 +3,9 @@ kind: Component
 metadata:
   namespace: default
   annotations:
-    backstage.io/managed-by-location: url:https://cogniloom-entity-storage.s3.eu-north-1.amazonaws.com/catalog-info/dab_cluster_1.yaml
-    backstage.io/managed-by-origin-location: url:https://cogniloom-entity-storage.s3.eu-north-1.amazonaws.com/catalog-info/dab_cluster_1.yaml
-    backstage.io/view-url: https://cogniloom-entity-storage.s3.eu-north-1.amazonaws.com/catalog-info/dab_cluster_1.yaml
     backstage.io/kubernetes-id: eks-microservices-dab-dev
     backstage.io/kubernetes-label-selector: "app.kubernetes.io/instance: dab-core-authentication"
     backstage.io/kubernetes-namespace: dab-core-microservices
-  name: dab_service
-  uid: 7a377087-e5aa-4442-89d7-5003ba212c58
-  etag: e2d1b607dadf7df8ee4439c89a9506c4628594ae
-relations:
-  - type: ownedBy
-    targetRef: group:default/team-a
-  - type: partOf
-    targetRef: system:default/cogniwide
 spec:
   type: service
   lifecycle: Development
