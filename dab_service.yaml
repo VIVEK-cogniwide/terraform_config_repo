@@ -9,7 +9,7 @@ metadata:
     backstage.io/kubernetes-id: eks-microservices-dab-dev
     backstage.io/kubernetes-label-selector: "app.kubernetes.io/instance: dab-core-authentication"
     backstage.io/kubernetes-namespace: dab-core-microservices
-  name: dab_cluster_2
+  name: dab_service
   uid: 7a377087-e5aa-4442-89d7-5003ba212c58
   etag: e2d1b607dadf7df8ee4439c89a9506c4628594ae
 relations:
