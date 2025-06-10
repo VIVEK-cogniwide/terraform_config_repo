@@ -6,7 +6,7 @@ metadata:
   description: Cogniassist Backend AKS cluster resources
   annotations:
     backstage.io/kubernetes-id: eks-microservices-dab-dev
-    backstage.io/kubernetes-label-selector: "app.kubernetes.io/instance: dab-core-authentication"
+    backstage.io/kubernetes-label-selector: "app.kubernetes.io/instance=dab-core-authentication"
     backstage.io/kubernetes-namespace: dab-core-microservices
 spec:
   type: service
