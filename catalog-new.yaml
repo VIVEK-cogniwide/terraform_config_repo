@@ -1,16 +1,12 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Cogniassist-services
-  description: Cogniassist Backend AKS cluster resources
+  name: Loom
+  description: Cogniloom IDP portal
   annotations:
-    backstage.io/jenkins-only: 'true'
-    jenkins.io/job-full-name: CICD 2.0/CogniAssist-Platform-backend-ci
-    
-    # First Kubernetes cluster
-    backstage.io/kubernetes-id: minikube-local
-    backstage.io/kubernetes-label-selector: 'app=app'
-    backstage.io/kubernetes-namespace: workspace-2
+    backstage.io/kubernetes-id: kubernetes
+    backstage.io/kubernetes-label-selector: 'app=backstage'
+    backstage.io/kubernetes-namespace: loom
     # Second Kubernetes cluster
     # backstage.io/kubernetes-id-1: aks-production
     # backstage.io/kubernetes-label-selector-1: 'app.kubernetes.io/instance=cogniassist-backend'
