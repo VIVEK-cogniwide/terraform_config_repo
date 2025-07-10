@@ -1,5 +1,5 @@
 apiVersion: backstage.io/v1alpha1
-kind: Component
+kind: dab_service
 metadata:
   namespace: default
   name: dab-services
