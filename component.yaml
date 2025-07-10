@@ -1,12 +1,12 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: harbor_registry
-  description: harbor image registry
+  name: dab-core-microservices
+  description: Core microservices
   annotations:
-    backstage.io/kubernetes-id: aks-pe-poc
-    backstage.io/kubernetes-namespace: harbor
-    backstage.io/kubernetes-service-account: aks-api-service-account
+    backstage.io/kubernetes-id: eks-microservices-dab-dev
+    backstage.io/kubernetes-namespace: dab-core-microservices
+    backstage.io/kubernetes-service-account: app.kubernetes.io/instance: dab-core-authentication
 spec:
   type: service
   lifecycle: experimental
